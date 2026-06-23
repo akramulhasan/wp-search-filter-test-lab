@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# WordPress core — never commit these
+wp-admin/
+wp-includes/
+wp-config.php
+.htaccess
+
+# WordPress content — never commit these
+wp-content/
+
+# Database and uploads
+database.sql
+*.sql
+uploads/
+
+# LocalWP / Local by Flywheel
+Local Sites/
+app/sql/
+app/public/wp-*
+
+# Keep these always tracked
+!setup-search-filter-lab.sh
+!README.md
+!LICENSE
+!docs/screenshots/.gitkeep
